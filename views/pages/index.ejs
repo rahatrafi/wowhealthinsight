@@ -1,0 +1,37 @@
+<%- include('../partials/head') %>
+<script>
+    var token = '<%= token %>';
+</script>
+<%- include('../partials/header') %>
+
+<!-- hero-sec -->
+<section class="wow-hero-sec">
+    <div class="container">
+      <h1>Find The Right Plan For You!</h1>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>  
+      <p>Answer a few questions to see your health plan options</p>
+    </div>
+  </section>
+<!-- hero-sec -->
+<!-- form-sec -->
+<% if(res.error === false){ %>
+<section class="wow-form-sec">
+    <div class="container main-container">
+    </div>
+  </section>
+  <% } else { %>
+    <section class="wow-error-sec">
+        <div class="container">
+            <div class="alert alert-danger" role="alert">
+                <%= res.msg %>
+            </div>
+            <h3><%= res.desc %></h3>
+            <button class="btn button btn-lg btn btn-primary" onclick="javascript:location.href='/'"><span>Continue</span></button>
+        </div>
+    </section>
+  <% } %>
+
+  <!-- form-sec -->
+<%- include('../partials/footer') %>

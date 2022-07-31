@@ -1,0 +1,1022 @@
+
+/*---WOWHEALTH-GLOBAL-CSS---*/
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a {
+    text-decoration: unset;
+    transition: 0.3s;
+}
+a:hover {
+    transition: 0.3s;
+}
+input:focus {
+    outline: unset;
+    border: unset;
+    box-shadow: unset;
+}
+button:focus {
+    outline: unset;
+    border: unset;
+    box-shadow: unset;
+}
+img {
+    max-width: 100%;
+}
+p {
+    font-size: 16px;
+    margin: 0;
+}
+section {
+    padding: 40px 0;
+    margin: 0;
+}
+input:focus {
+    outline: unset;
+}
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1170px;
+}
+/*------WOWHEALTH-GLOBAL-CSS------*/
+
+
+
+/*---WOWHEALTH-HEADER-CSS---*/
+header.wow-header {
+    background-color: #fff;
+    padding: 10px 0;
+    box-shadow: 0px 0px 5px #ccc;
+    padding-bottom: 0px;
+}
+header.wow-header .wow-logo {
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+}
+header.wow-header .wow-logo a img {
+    max-width: 100%;
+    height: auto;
+    width: 200px;
+}
+header.wow-header .wow-agent-block {
+    display: flex;
+    justify-content: flex-end;
+}
+header.wow-header .agent-details {
+    display: flex;
+    flex-direction: column;
+}
+header.wow-header .agent-details p {
+    color: #333333;
+    font-size: 16px;
+    margin-bottom: 0;
+    text-align: center;
+}
+header.wow-header .agent-img img {
+    height: auto;
+    width: 80px;
+    position: relative;
+    bottom: 0px;
+}
+header.wow-header .agent-details a {
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 34px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+header.wow-header .agent-details small {
+    color: #595959;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    width: max-content;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+header.wow-header .agent-details small span {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #5cb85c;
+    border-radius: 100%;
+    left: -17px;
+    top: auto;
+    bottom: auto;
+}
+.agent-detail-main {
+    display: flex;
+}
+.wow-header .navbar-collapse {
+    display: flex;
+    max-width: 60%;
+    margin-top: -10px;
+    padding: 0px 40px;
+}
+.wow-header .navbar-collapse ul.navbar-nav {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+.wow-header .navbar-collapse ul.navbar-nav li.nav-item {
+    display: flex;
+    justify-content: space-between;
+}
+.wow-header .navbar-collapse ul.navbar-nav li.nav-item a.nav-link.active {
+    color: #0066ff;
+    position: relative;
+}
+.wow-header .navbar-collapse ul.navbar-nav li.nav-item a.nav-link.active:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #0066ff;
+    height: 2px;
+    width: 100%;
+    opacity: 1;
+}
+.wow-header .navbar-collapse ul.navbar-nav li.nav-item a.nav-link:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #0066ff;
+    height: 2px;
+    width: 100%;
+    opacity: 0;
+}
+.wow-header .navbar-collapse ul.navbar-nav li.nav-item a.nav-link {
+    padding: 41px 0;
+    position: relative;
+}
+.wow-header .navbar-collapse ul.navbar-nav li.nav-item a.nav-link:before {
+    opacity: 0;
+}
+.wow-header .navbar-collapse ul.navbar-nav li.nav-item a.nav-link:hover:before {
+    opacity: 1;
+}
+.wow-header .navbar-collapse ul.navbar-nav li.nav-item a.nav-link:hover {
+    color: #0066ff;
+}
+.wow-header-second {
+    display: none;
+}
+.mobile-button {
+    display: none;
+}
+/*---WOWHEALTH-HEADER-CSS---*/
+
+
+/*---FOOTER-CSS---*/
+.copyright {
+    text-align: center;
+    margin-top: 30px;
+    color: #efefef;
+    font-size: 14px;
+}
+.copyright a {
+    color: #efefef;
+}
+.wow-footer {
+    background-color: #3078e4;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.wow-footer .footer-agent h4 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 14px;
+}
+.wow-footer .footer-partner img {
+    margin-left: auto;
+    display: block;
+    height: auto;
+    width: 80px;
+}
+.wow-footer .phone-icon-wrapper {
+    position: relative;
+    display: inline-block;
+}
+.wow-footer .number {
+    color: #d7c7e5;
+    display: inline-block;
+    position: relative;
+    font-size: 26px;
+    font-weight: 700;
+    padding-left: 8px;
+}
+.wow-footer .footer-agent a {
+    display: inline-block;
+}
+.wow-footer .phone-icon-wrapper * {
+    width: 20px;
+    height: 20px;
+}
+.wow-footer .phone-pulse-wrap {
+    border-radius: 50%;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    position: absolute;
+    top: 0;
+    -webkit-animation: phone-pulse 2s ease-out;
+    animation: phone-pulse 2s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    color: white;
+}
+.wow-footer .phone-icon-wrapper i {
+    color: #d7c7e5;
+    font-size: 19px;
+    font-weight: 600;
+}
+.wow-footer .footer-copyright h4 {
+    font-size: 16px;
+    color: #d7c7e5;
+}
+.wow-footer .footer-menu ul li a {
+    font-size: 16px;
+    color: #d7c7e5;
+    margin-right: 12px;
+}
+.wow-footer .footer-menu ul li:last-child a {
+    margin-right: 0;
+}
+.wow-footer .footer-menu ul {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.wow-footer .footer-menu ul li {
+    text-align: center;
+    display: inline-block;
+}
+.wow-footer .footer-menu ul li a:hover {
+    text-decoration: underline;
+}
+.wow-footer .footer-content h5 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #d7c7e5;
+}
+.wow-footer .footer-content p {
+    font-size: 14px;
+    margin-bottom: 14px;
+    color: #d7c7e5;
+}
+.wow-footer .footer-content p a {
+    color: #d7c7e5;
+    text-decoration: underline;
+}
+h3.footer-heading {
+    font-size: 20px;
+    font-weight: 700;
+    color: #efefef;
+    font-family: inherit;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+p.footer-content {
+    font-size: 14px;
+    margin-bottom: 14px;
+    color: #efefef;
+}
+.copyright a:hover {
+    color: #FFA500;
+}
+/*---FOOTER-CSS---*/
+
+
+/*---WOWHEALTH-HERO-SEC-CSS---*/
+section.wow-hero-sec {
+    text-align: center;
+    padding: 30px 0;
+    background: url(../images/hero-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: 100% 5%;
+    color: #fff;
+}
+section.wow-hero-sec h1 {
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+section.wow-hero-sec p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+section.wow-hero-sec .progress {
+    max-width: 100%;
+    width: 500px;
+    margin: 0 auto;
+    height: 14px;
+    background-color: #f5f5f5;
+    border-radius: 50px;
+    box-shadow: inset 0 1px 2px rgb(0 0 0 / 10%);
+}
+section.wow-hero-sec .progress-bar {
+    border: 1px solid #f5f5f5;
+    border-radius: 50px;
+    background: linear-gradient(90deg, rgba(255,166,48,1) 0%, rgba(0,79,151,1) 100%);
+}
+.wow-form-sec .heading h2 {
+    text-align: center;
+    color: #444;
+    font-size: 26px;
+    margin-bottom: 34px;
+}
+.wow-form-sec {
+    padding-bottom: 100px;
+    padding-top: 0;
+}
+.heading {
+    padding-top: 40px;
+}   
+/*---WOWHEALTH-HERO-SEC-CSS---*/
+
+/*---WOWHEALTH-FORM-CSS---*/
+.step .form-check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.step {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 30px;
+    max-width: 670px;
+    margin: 0 auto;
+}
+.step .form-check {
+    border-radius: 5px;
+    border: 1px solid #56b3e8 !important;
+    background-color: #ffffff !important;
+    box-shadow: 0px 3px 16px rgb(5 31 44 / 12%);
+    padding: 0;
+    min-height: 200px;
+    cursor: pointer;
+    padding: 10px 12px;
+    justify-content: center;
+}
+.step .form-check label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    cursor: pointer;
+}
+.step .form-check img {
+    height: 88px;
+    width: 88px;
+    padding: 0;
+    display: block;
+    margin: auto;
+    margin-bottom: 8px;
+}
+.step label.form-check-label {
+    font-size: 18px;
+    font-weight: 700;
+    color: #121212;
+    z-index: 9;
+    text-align: center;
+}
+.step .form-check input[type="radio"] {
+    opacity: 0;
+}
+.step .form-check input[type="radio"] {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    border-radius: 5px;
+    background-color: transparent;
+    border: unset;
+    cursor: pointer;
+}
+.step .form-check input[type="radio"]:hover {
+    background-color: #f0faff;
+    opacity: 1;
+}
+.step .form-check input[type="radio"]:checked {
+    background-color: #f0faff;
+    opacity: 1;
+    background-image: unset;
+}
+.step .form-check-input[type="radio"]:hover {
+    border: unset !important;
+    box-shadow: unset;
+    outline: unset;
+}
+.step2 {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.step2 input[type="checkbox"] {
+    margin-left: auto;
+    width: 1.5em;
+    height: 1.5em;
+}
+.contact-part {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.step2 .form-check {
+    width: 20%;
+}
+button.btn-primary {
+    display: block;
+    text-align: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    overflow: hidden;
+    border-radius: 4px;
+    color: #fff;
+    padding: 16px;
+    width: 100%;
+    position: relative;
+    background: #007CC2;
+    border-bottom: 3px solid #006299;
+    margin-bottom: 16px;
+    text-transform: none;
+    transition: background-color 0.5s ease-out;
+    letter-spacing: .02em;
+    font-weight: 600;
+    font-size: 18px;
+    max-width: 440px;
+}
+button.btn-primary:hover, button.btn-primary:focus {
+    background-color: #0090E1;
+    color: #fff;
+    top: 2px;
+}
+a.form-call {
+    font-size: 18px;
+    font-weight: 800;
+    color: #0066ff;
+}
+a.form-call span {
+    font-weight: 500;
+}
+a.form-call:hover span {
+    text-decoration: underline;
+}
+.step2 .form-check:hover, .step2 .form-check:focus {
+    background-color: #f0faff !important;
+}
+.step4 {display: flex;}
+.step4 .form-check {
+    width: 30%;
+}
+button.btn-primary:before {
+    position: absolute;
+    top: auto;
+    bottom: auto;
+    margin: auto;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f105";
+    font-size: 18px;
+    right: 12px;
+    left: auto;
+}
+.tooltip-btn {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: -16px;
+    margin-bottom: 20px;
+    border: unset;
+    background-color: unset;
+}
+.tooltip-btn:hover, .tooltip-btn:focus {
+    border: unset;
+    background-color: unset;
+}
+.tooltip-btn i {
+    margin-left: 4px;
+}
+.tooltip-btn {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: -16px;
+    margin-bottom: 20px;
+    border: unset;
+    background-color: unset;
+    font-size: 14px;
+    color: #595959;
+}
+.step5 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.step5 .input-group {
+    display: flex;
+    width: 20.4%;
+}
+.step .input-group input[type="text"], .step9 input[type="text"].form-control, .step .input-group input[type="email"] {
+    display: inline-block;
+    width: 100%;
+    padding: 14px 16px;
+    font-size: 16px;
+    line-height: 1.428571429;
+    color: #555555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px !important;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+body .step .form-control.is-invalid, body .step .was-validated .form-control:invalid {
+    border-color: #dc3545;
+    padding-right: calc(1.5em + 0.75rem);
+    background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23dc3545'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e);
+    background-repeat: no-repeat;
+    background-position: right calc(0.375em + 0.1875rem) center;
+    background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+}
+.tooltip-inner {
+    max-width: 100%;
+}
+.step5 {
+    margin-top: 30px;
+    grid-gap: 15px;
+}
+.step5 .contact-part {
+    margin-top: 0;
+}
+input[type="tel"].form-control:focus, .step9 input[type="text"].form-control:focus, .step9 input[type="email"].form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(102 175 233 / 60%);
+}
+.heading p {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: -16px;
+    margin-bottom: 20px;
+    border: unset;
+    background-color: unset;
+    font-size: 14px;
+    color: #595959;
+}
+.step6 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.step6 .input-group {
+    width: 50%;
+}
+.step6 a.btn-primary {
+    width: 50%;
+}
+.step6 .contact-part {
+    margin-top: -10px;
+}
+.step6 .contact-part button {
+    width: 50%;
+}
+.step7 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.step7 .form-check {
+    width: 40%;
+    min-height: 170px;
+    color: #333333;
+    background-color: #F2F5F7 !important;
+    box-shadow: 0px 3px 0px #d6dde1;
+    border: 1px solid #e0e4e6 !important;
+}
+.step7 .contact-part {
+    margin-top: 0;
+}
+a.btn-link {
+    color: #007CC2;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.step11 .input-group span {
+    font-size: 14px;
+    text-align: justify;
+    display: inline-block;
+    color: #595959;
+    font-weight: 100;
+    outline: none;
+    width: 100%;
+    margin-top: 16px;
+}
+.step11 {
+    max-width: 600px;
+}
+.step-discrition p {
+    font-size: 12px;
+    color: #595959;
+    text-align: justify;
+    line-height: 22px;
+}
+.step-discrition p b {
+    font-weight: bold;
+}
+.last-step-heading p {
+    font-size: 18px;
+    color: #121212;
+}
+.see-result-discrition h4 {
+    font-size: 18px;
+    text-align: center;
+    color: #121212;
+}
+.last-step-heading p {
+    font-size: 18px;
+    color: #121212;
+    margin-bottom: 40px;
+}
+.see-result-discrition h4 {
+    font-size: 18px;
+    text-align: center;
+    color: #121212;
+}
+.step12 .contact-part a.btn-primary {
+    display: block;
+    text-align: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    overflow: hidden;
+    border-radius: 50px;
+    color: #fff;
+    padding: 16px;
+    width: 50%;
+    position: relative;
+    margin-bottom: 16px;
+    text-transform: none;
+    transition: background-color 0.5s ease-out;
+    letter-spacing: .02em;
+    font-weight: 600;
+    font-size: 18px;
+    max-width: 440px;
+    background: #ff7500;
+    border-bottom: 3px solid #b55300;
+    margin-top: 14px;
+}
+.step12 .contact-part a.btn-primary:before {
+    position: absolute;
+    top: auto;
+    bottom: auto;
+    margin: auto;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f105";
+    font-size: 18px;
+    right: 12px;
+    left: auto;
+}
+.step12 .contact-part a.btn-primary:hover, .step12 .contact-part a.btn-primary:focus {
+    top: 2px;
+}
+.see-result-discrition img {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+/*---WOWHEALTH-FORM-CSS---*/
+
+/*---privacy-policy-CSS---*/
+section.privacy-policy h1 {
+    color: #0066ff;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+section.privacy-policy p {
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: #121212;
+}
+section.privacy-policy ul {
+    padding-left: 44px;
+    margin-top: 21px;
+}
+section.privacy-policy ul li {
+    list-style: disc;
+    margin-bottom: 8px;
+}
+.privacy-policy {
+    padding: 60px 0;
+}
+section.privacy-policy h3 {
+    color: #0066ff;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+/*---privacy-policy-CSS---*/
+.last-step-heading h2 {
+    color: #15b9e7 !important;
+    font-size: 44px !important;
+    font-weight: 800;
+    margin-bottom: 22px !important;
+    margin-top: 20px;
+}
+.step12 .see-result-discrition h4 {
+    font-size: 20px;
+    color: #727272;
+}
+/*---RESPONSIVE-CSS---*/
+@media (max-width: 991px) {
+    .step2 .form-check {    
+        width: 25%;
+    word-break: break-all;
+    }
+}
+@media (max-width: 768px) {
+    header.wow-header {
+        padding: 20px 0px;
+    }
+    header.wow-header .wow-logo {
+        margin: 0;
+    }
+    .mobile-button a {
+        background-image: linear-gradient(-180deg, #FFFFFF 0%, #D6E3F2 100%);
+        border: 1px solid #E4F1FF;
+        box-shadow: 0 0 0 1px #007cc2;
+        border-radius: 4px;
+        font-size: 14px;
+        height: 40px;
+        line-height: 32px;
+        padding: 8px 8px;
+        font-weight: 600;
+        color: #257eba;
+    }
+    .wow-agent-block .mobile-button {
+        display: block;
+    }
+    .agent-detail-main {
+        display: none;
+    }
+    section.wow-hero-sec h1 {
+        font-size: 24px;
+    }
+    section.wow-hero-sec h1 {
+        font-size: 24px;
+    }
+    .wow-footer .container .row:first-child {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .wow-footer .footer-partner img {
+        margin: 0 auto;
+        width: 140px;
+    }
+    .footer-agent {
+        margin-bottom: 14px;
+    }
+    .wow-footer .footer-agent .number {font-weight: 600;}
+    .wow-footer .container .row:nth-child(2n) {
+        flex-direction: column;
+        margin-top: 14px !important;
+    }
+    .footer-copyright {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-menu {
+        max-width: 100%;
+        width: 100%;
+    }
+    .wow-footer {
+        padding-bottom: 30px;
+    }
+}
+@media (max-width: 767px) {
+    .step .form-check input[type="radio"]:hover {
+    background-color: #f0faff;
+    opacity: 0;
+    }
+    header.wow-header .wow-logo a img {
+        width: 136px;
+    }
+    .privacy-policy {
+        padding: 40px 0;
+    }
+    section.privacy-policy p {
+        margin-bottom: 20px;
+    }
+    h3.footer-heading {
+        text-align: left;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    p.footer-content {
+        text-align: left;
+    }
+    .copyright {
+        margin-top: 0px;
+    }
+    .copyright p {
+        font-size: 14px;
+    }
+    header.wow-header .row {
+        flex-direction: row !important;
+        align-items: center;
+    }
+    header.wow-header .wow-logo {
+        width: 40%;
+    }
+    header.wow-header .wow-agent-block {
+        width: 60%;
+    }
+    header.wow-header .wow-logo a {
+        width: max-content;
+    }
+    .wow-agent-block .mobile-button {
+        height: auto;
+        line-height: normal;
+    }
+    section.wow-hero-sec p {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    section.wow-hero-sec h1 {
+        margin-bottom: 10px;
+    }
+    section.wow-hero-sec {
+        padding: 20px 0;
+    }
+    .wow-form-sec .heading h2 {
+        font-size: 20px;
+        margin-bottom: 24px;
+    }
+    .heading {
+        padding-top: 20px;
+    }
+    .mobile-button a i {
+        margin-right: 5px;
+        font-size: 12px;
+    }
+    .mobile-button a {
+        line-height: normal;
+        display: flex;
+        align-items: center;
+    }
+    header.wow-header {
+        padding: 15px 0px;
+    }
+    .wow-footer .footer-menu ul li a {
+        font-size: 12px;
+        margin-right: 10px;
+    }
+    .wow-footer .container .row:last-child {
+        margin-top: 14px !important;
+    }
+    .wow-footer .footer-content h5 {
+        font-size: 12px;
+    }
+    .wow-footer .footer-content p {
+        font-size: 12px;
+    }
+    .step label.form-check-label {
+        font-size: 12px;
+        word-break: break-all;
+    }
+    .step .form-check img {
+        width: 30px;
+        height: 30px;
+    }
+    .step label.form-check-label {
+        font-size: 12px;
+        word-break: break-all;
+    }
+    .step .form-check img {
+        width: 36px;
+        height: 36px;
+    }
+    .step .form-check {
+        min-height: 110px;
+        padding: 10px 5px;
+    }
+    .step {
+        grid-gap: 8px;
+        max-width: 100%;
+    }
+    .step2 .form-check {
+        width: 48%;
+    }
+    .step2 input[type="checkbox"] {
+        width: 1em;
+        height: 1em;
+    }
+    a.form-call {
+        font-size: 14px;
+    }
+    button.btn-primary {
+        max-width: 100%;
+        font-size: 16px;
+        padding: 14px 10px;
+        width: 100% !important;
+        display: block;
+        margin-top: 14px;
+    }
+    button.btn-primary:before {
+        font-size: 14px;
+    }
+    .step .input-group {
+        width: 100%;
+    }
+    .see-result-discrition h4 {
+        font-size: 12px;
+    }
+    .last-step-heading p {
+        font-size: 14px;
+    }
+    .step .input-group input[type="tel"], .step9 input[type="text"].form-control, .step .input-group input[type="email"] {
+        font-size: 14px;
+    }
+    .step5 .input-group {
+        width: 31%;
+    }
+    .wow-form-sec {
+        padding-bottom: 50px;
+        min-height: 75vh;
+    }
+    a.btn-link {
+        font-size: 14px;
+    }
+    .step2 .form-check {
+        justify-content: flex-start;
+    }
+    .step2 .form-check label {
+        margin-top: 13px;
+    }
+    .step2 .form-check {
+        width: 31%;
+        min-height: 155px;
+    }
+    .step12 .contact-part a.btn-primary {
+        max-width: 100%;
+        font-size: 16px;
+        padding: 14px 10px;
+        width: 100% !important;
+        display: block;
+        margin-top: 14px;
+    }
+    .step12 .see-result-discrition h4 {
+        font-size: 16px;
+        color: #727272;
+    }
+    .last-step-heading h2 {
+        font-size: 34px !important;
+    }
+}
+@media (max-width: 372px) {
+    .step label.form-check-label {
+        font-size: 10px;
+    }
+}
+/*---RESPONSIVE-CSS---*/
+
+
+/*---animation-pulse-btn---*/
+@-webkit-keyframes phone-pulse-wrap{to{box-shadow:0 0 0 8px rgba(47,158,233,0)}}
+@keyframes phone-pulse-wrap{to{box-shadow:0 0 0 8px rgba(47,158,233,0)}}
+@-webkit-keyframes "phone-pulse"{0%{-webkit-transform:scale(1);opacity:0.0}50%{-webkit-transform:scale(1);opacity:0.0}60%{-webkit-transform:scale(1);opacity:0.1}70%{-webkit-transform:scale(1.1);opacity:0.3}80%{-webkit-transform:scale(1.2);opacity:0.5}90%{-webkit-transform:scale(1.3);opacity:0.2}100%{-webkit-transform:scale(1.4);opacity:0.0}}
+/*---animation-pulse-btn---*/

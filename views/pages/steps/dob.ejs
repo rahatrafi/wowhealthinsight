@@ -1,0 +1,29 @@
+ <!-- step6 -->
+ <div class="heading">
+  <h2>What is your date of birth?</h2>
+  <button type="button" class="btn tooltip-btn" data-bs-toggle="tooltip" data-container="body" data-bs-placement="bottom" title="We need to know your age in order to find your best plan options.">
+    Why we need your birthdate<i class="fa fa-info-circle"></i>
+  </button>
+</div>
+<form class="step step5">
+  <div class="input-group">
+    <input type="text" class="form-control month" maxlength="2" placeholder="MM" aria-label="month">
+  </div>
+  <div class="input-group">
+    <input type="text" class="form-control date" maxlength="2" placeholder="DD" aria-label="day">
+  </div>
+  <div class="input-group">
+    <input type="text" class="form-control year" maxlength="4" placeholder="YYYY" aria-label="year">
+  </div>
+  <div class="contact-part">
+    <button type="button" class="btn btn-primary" onclick="setDobData();">Continue</button>
+    <a href="tel:(716) 473-8899" class="form-call"><span>OR CALL </span>(716) 473-8899</a>
+  </div>
+</form>
+<script type="text/javascript">
+  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+            var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+    });
+</script>
+<!-- step6 -->

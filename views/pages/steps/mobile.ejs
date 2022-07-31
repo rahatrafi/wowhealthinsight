@@ -1,0 +1,22 @@
+<!-- step12 -->
+<div class="heading">
+  <h2>Last step! Your results are ready. Mobile or home phone number.</h2>
+</div>
+<form class="step step9 step6 step11">
+  <div class="input-group">
+    <input type="text" id="mobile" class="form-control" placeholder="Phone" aria-label="phone">
+    <span>By clicking the View My Results Button, I agree to the consents below the button.</span>
+  </div>
+  <div class="contact-part">
+    <button type="button" class="btn btn-primary" onclick="setMobileData();">View My Results</button>
+    <div class="step-discrition">
+      <p><b>Consent to Be Contacted</b>: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
+    </div>
+  </div>
+</form>
+<script type="text/javascript">
+  jQuery(document).ready(function() {
+    jQuery('#mobile').inputmask({"mask": "(999)-999-9999"});
+  });
+</script>
+<!-- step12 -->
